@@ -1,0 +1,22 @@
+body {
+    background-color: lightgray;
+    color: black;
+}
+H1{
+    border-style: double;
+    border-width: 2px;
+    border-color: darkorange;
+    padding: 15px;
+    width: 150px;
+    margin: 15px;
+}
+p {
+    background-color: white;
+    color: rgb(25, 107, 80);
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 300px;
+    padding: 5px;
+    margin: 20px;
+}
