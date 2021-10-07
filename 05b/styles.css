@@ -1,0 +1,25 @@
+body {
+	background: black;
+	color: white;
+}
+H1 {
+	font-size: 20px;
+}
+p {
+	font-size: 12px;
+	color: green;
+}
+.style {
+	border-style: dotted;
+	border-width: 2px;
+	border-radius: 20px;
+	height: 100px;
+	width: 100px;	
+}	
+ol {
+	list-style-type: lower-latin;
+}	
+
+ul {
+	list-style-type: square;
+}			
