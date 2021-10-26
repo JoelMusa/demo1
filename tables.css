@@ -1,0 +1,22 @@
+table, th, tr, td{
+    border-style: solid;
+    border-width: 1px;
+    border-collapse: collapse; 
+}
+td, th{
+    padding: 5px;
+}
+caption{
+    color: whitesmoke;
+}
+form{
+    padding-top: 10px;
+}
+body{
+    margin: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+}
+.color{
+    background-color: lightgray;
+}
