@@ -1,0 +1,51 @@
+.otsikko{
+    box-shadow: 5px 5px 3px black;
+    background-image: url("images/Kurkuma.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+#pääotsikko{
+    text-shadow: 2px 2px lightgrey;
+}
+#alaotsikko{
+    text-shadow: 3px 1px 3px red; 
+}
+header{
+    float: left;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+    transition: 0.5s;
+}
+nav{
+    float: left;
+    margin-left: 10px;
+    background-color: whitesmoke;
+    padding: 10px;
+    font-size: 25px;
+    box-shadow: 5px 5px 3px black;
+}
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: black;
+      color: white;
+    }
+    .otsikko{
+        box-shadow: 5px 5px 3px white;
+    }
+    nav{
+        box-shadow: 5px 5px 3px white;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+  }
