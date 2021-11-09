@@ -1,16 +1,9 @@
 *{
-    box-sizing: content-box;
+    box-sizing: border-box;
   } 
-  body {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    }
 .nav{
     float: left;
-    height: 80px;
-    border-style: solid;
-    border-width: 1px;
+    height: auto;
     padding: 10px;
 }
 .nav-item{
@@ -22,11 +15,8 @@
   font-size: 40px;
 }
 .logo{
-  float: left;
-  width: auto;
+  float: left; 
   height: 80px;
-  border-style: solid;
-  border-width: 1px;
   padding: 10px;
 }
 header::after {
@@ -36,7 +26,4 @@ header::after {
 }
 .col-md-12{
   text-align: center;
-}
-.kolmekuvaa{
-  
 }
