@@ -7,7 +7,7 @@ body{
 }
 .nav-link{
   color:#FFFFFF;
-  font-size: 40px;
+  font-size: 36px;
 }
 .logo{
   float: left; 
@@ -20,7 +20,7 @@ header{
   width: 100%;
 }
 .nav-link:hover{
-  font-size: 42px;
+  font-size: 38px;
   transition: 0.5s;
   color: #2D85F3;
 }
@@ -51,7 +51,7 @@ ul{
 h1{
   padding: 50px;
   color: #191919;
-  margin-top: 100px;
+  margin-top: 110px;
 }
 blockquote{
   max-width: 800px;
@@ -110,4 +110,21 @@ h3{
 }
 .primo{
   padding-right: 10px;
+}
+@media screen and (max-width: 930px) {
+  .nav-link{
+    color:#FFFFFF;
+    font-size: 20px;
+  }
+  .nav-link:hover{
+    font-size: 22px;
+    transition: 0.5s;
+    color: #2D85F3;}
+}
+@media screen and (max-width: 576px) {
+  h1{
+    padding: 50px;
+    color: #191919;
+    margin-top: 166px;
+  }
 }
