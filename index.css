@@ -13,13 +13,9 @@ body{
   float: left; 
   padding: 10px;
 }
-.nav{
-  padding: 10px;
-  height: 80px;
-}
 header{
   background-color: #191919;
-  height: 100px;
+  height: auto;
   position: fixed;
   width: 100%;
 }
@@ -115,4 +111,3 @@ h3{
 .primo{
   padding-right: 10px;
 }
-
