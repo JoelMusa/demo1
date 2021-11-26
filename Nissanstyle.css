@@ -11,13 +11,14 @@
   margin-right: 5px;
 }
 .nav-link{
-  color: black;
+  color:#cccccc;
   font-size: 40px;
 }
 .logo{
   float: left; 
-  height: 80px;
+  height: 96px;
   padding: 10px;
+  background-color: #FFFFFF;
 }
 header::after {
   content: "";
@@ -26,4 +27,11 @@ header::after {
 }
 .col-md-12{
   text-align: center;
+}
+header,.footer{
+  background-color: #000000;
+  color: #cccccc;
+}
+main{
+  background-color: #F2F2F2;
 }
