@@ -3,7 +3,7 @@
 }
 body{
   background-color: #f2f2f2;
-  margin-bottom: 0px;
+  bottom: 0px;
 }
 .nav-link{
   color:#FFFFFF;
@@ -33,7 +33,7 @@ ul{
   
 }
 .footer{
-  background-color: black;
+  background-color: #191919;
   margin: auto;
   width: 100%;
   bottom: 0;
@@ -115,16 +115,10 @@ h3{
   .nav-link{
     color:#FFFFFF;
     font-size: 20px;
+    
   }
   .nav-link:hover{
     font-size: 22px;
     transition: 0.5s;
     color: #2D85F3;}
-}
-@media screen and (max-width: 576px) {
-  h1{
-    padding: 50px;
-    color: #191919;
-    margin-top: 166px;
-  }
 }
